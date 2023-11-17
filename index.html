@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pokédex</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand"><img src="./img/Pokédex_logo.png" alt="logo pokédex" class="logo-pokedex"></a>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Nombre ó id" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+
+            <!-- 
+            <ul class="nav-list">
+                <li class="nav-item"><button class="btn btn-header" id="ver-todos">Ver todos</button></li>
+                <li class="nav-item"><button class="btn btn-header normal" id="normal">Normal</button></li>
+                <li class="nav-item"><button class="btn btn-header fire" id="fire">Fire</button></li>
+                <li class="nav-item"><button class="btn btn-header water" id="water">Water</button></li>
+                <li class="nav-item"><button class="btn btn-header grass" id="grass">Grass</button></li>
+                <li class="nav-item"><button class="btn btn-header electric" id="electric">Electric</button></li>
+                <li class="nav-item"><button class="btn btn-header ice" id="ice">Ice</button></li>
+                <li class="nav-item"><button class="btn btn-header fighting" id="fighting">Fighting</button></li>
+                <li class="nav-item"><button class="btn btn-header poison" id="poison">Poison</button></li>
+                <li class="nav-item"><button class="btn btn-header ground" id="ground">Ground</button></li>
+                <li class="nav-item"><button class="btn btn-header flying" id="flying">Flying</button></li>
+                <li class="nav-item"><button class="btn btn-header psychic" id="psychic">Psychic</button></li>
+                <li class="nav-item"><button class="btn btn-header bug" id="bug">Bug</button></li>
+                <li class="nav-item"><button class="btn btn-header rock" id="rock">Rock</button></li>
+                <li class="nav-item"><button class="btn btn-header ghost" id="ghost">Ghost</button></li>
+                <li class="nav-item"><button class="btn btn-header dark" id="dark">Dark</button></li>
+                <li class="nav-item"><button class="btn btn-header dragon" id="dragon">Dragon</button></li>
+                <li class="nav-item"><button class="btn btn-header steel" id="steel">Steel</button></li>
+                <li class="nav-item"><button class="btn btn-header fairy" id="fairy">Fairy</button></li>
+            </ul>
+             -->
+        </nav>
+    </header>
+    <main>
+    <div>
+      <div class="row row-cols-sm-2 row-cols-md-3 row-cols-bg-4 g-4 p-4">
+        <div class="col">
+          <div class="card h-20">
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png" class="card-img-top" alt="bulbasaur">
+            <div class="card-body">
+              <h5 class="card-title">Bulbasaur</h5>
+              <p class="card-text">
+                "grass",
+                "poison"
+              </p>
+              <p class="card-text number">001</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-20">
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png" class="card-img-top" alt="ivysaur">
+            <div class="card-body">
+              <h5 class="card-title">Ivysaure</h5>
+              <p class="card-text">
+                "grass",
+                "poison"
+              </p>
+              <p class="card-text number">002</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-20">
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/003.png" class="card-img-top" alt="venusaur">
+            <div class="card-body">
+              <h5 class="card-title">Venusaur</h5>
+              <p class="card-text">
+                "grass",
+                "poison"
+             </p>
+             <p class="card-text number">003</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-20">
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png" class="card-img-top" alt="charmander">
+            <div class="card-body">
+              <h5 class="card-title">Charmander</h5>
+              <p class="card-text">
+                "fire"
+             </p>
+             <p class="card-text number">004</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+    </main>
+
+    <script src="./js/script.js"></script>
+
+</html>
